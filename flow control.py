@@ -1,0 +1,7 @@
+print("hello"=="hello")
+print("hello"!="hello")
+print(9 < 10)
+print(100>500)
+print(34==78.89)
+print(60<=58)
+print(500>=499)
