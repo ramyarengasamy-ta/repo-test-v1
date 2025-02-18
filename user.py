@@ -1,0 +1,6 @@
+x=input("enter the name")
+y=int(input("enter the age"))
+z=int(input ("enter the hight"))
+print(x)
+print(y)
+print(z)
