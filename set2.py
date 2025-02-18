@@ -1,0 +1,16 @@
+negative=[1,2,3,4,5,6,7,8]
+print(negative[-2])
+print(negative[-6])
+print(negative[3])
+a=["abc","def","hijk","lmno","pqrs","tuvw","xyz"]
+print(a[-1])
+print(a[3])
+print(a[5])
+print(a[1])
+sliced=[1,3,4,2,6,7,8,9,10,11]
+print(sliced[:4])
+print(sliced[3:5])
+print(sliced[2:])
+example=[2,4,5,6,7,8,9]
+example[4:9]=[10,11,12,13,14,15,16,17,18,19]
+print(example)

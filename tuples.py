@@ -1,0 +1,10 @@
+tuple=(1,2,3,4,5,6,7,8,9)
+print(tuple[2])
+print(tuple[5])
+print (tuple[:6])
+print(tuple[2:6])
+print(tuple[3])
+print(tuple.__sizeof__())
+place=("us","uk","australia","spain","france")
+for x in place:
+    print(x)
