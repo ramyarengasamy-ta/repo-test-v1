@@ -1,0 +1,12 @@
+print("hello world".rjust(20))
+print("welcome".ljust(30))
+print("hello world".rjust(30) + "welcome")
+str= "North"
+print(str.rjust(17))  
+print(str.ljust(17, "*"))  
+center_plus = str.center(16, "+")  
+print(center_plus)
+print(str.lstrip("North"))
+print(center_plus.rstrip("+"))  
+print(center_plus.strip("+"))  
+print(str.replace("North", "South"))  
