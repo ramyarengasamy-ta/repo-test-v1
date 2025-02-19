@@ -1,0 +1,15 @@
+a,b,c=5,10,15
+print(a,b,c)
+
+x=10
+x="hello"
+print(x)
+
+x = 40
+
+def modify():
+    global x
+    x = 70
+
+modify()
+print(x)  
