@@ -13,3 +13,4 @@ def modify():
 
 modify()
 print(x)  
+print(__name__)
