@@ -11,8 +11,8 @@ print(kg)
 
 
 #average of three numbers
-a=2
-b=2
-c=2
+a=10
+b=10
+c=10
 d=a+b+c/3
 print(d)
