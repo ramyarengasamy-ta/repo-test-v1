@@ -4,7 +4,7 @@ def time_it(func):
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)  
-        print(f"Execution time: {time.time() - start:.3f} seconds") 
+        print(time.time())
         return result
     return wrapper
 
