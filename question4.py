@@ -1,21 +1,24 @@
-import asyncio;
+import time 
+from threading import Thread
+def name():
+    name=("ramya")
+    print(name)
+    time.sleep(5)
+def age():
+    age=23
+    print(age) 
+    time.sleep(6) 
+thread1=Thread(target=name) 
+thread2=Thread(target=age)  
+thread1.start()
+thread2.start()
+thread1.join()
+thread2.join()
 
-async def  fetch_data_1():
-  print("fetched data1") 
-  await asyncio.sleep(2)
-  print("completed fetching data1") 
-  return
-async def fetch_data_2():
-  print("fetched data2")
-  await asyncio.sleep(3)
-  print("completed fetching data2") 
-  return
 
-async def main():
-  # print("Debug1")
-  await asyncio.gather(fetch_data_1(),fetch_data_2())
-  # return res
 
-# asyncio.run(fetch_data_1())
-# asyncio.run(fetch_data_2())
-asyncio.run(main())
+
+
+
+
+print("done")

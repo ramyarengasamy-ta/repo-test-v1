@@ -4,7 +4,8 @@ def time_it(func):
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)  
-        print(time.time())
+        end = time.time()
+        print(end-start)
         return result
     return wrapper
 
